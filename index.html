@@ -6,28 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <div class="main">
-        <form class="search" action="">
-            <input type="search" placeholder="Search here..." required>
-            <button type="submit">Search</button>
-          </form>   
+    <div class="container py-5">
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search.." aria-label="Search">
+            <button class="btn" type="submit">Search</button>
+          </form>
     </div>
 
-    <div class="container">
+    <div class="d-flex">
 
         <!-- Sidebar -->
-        <aside class="container__sidebar">
+        <aside class=" col-md-2 col-sm-6 p-2 container__sidebar">
             <ul>
                 <li> <a href="#user"><span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">Ojas singh</span></a></li>
                 <li> <a href="#user"><span><i class="fas fa-border-all"></i> </span> <span>Dashboard</span></a></li>
                 <li> <a href="#user"><span><i class="fas fa-user"></i> </span> <span>Candidate</span></a></li>
                 <li> <a href="#user"><span><i class="fas fa-business-time"></i> </span> <span>Job </span></a></li>
-                <li> <a href="#user"><span><i class="far fa-envelope"></i> </span> <span>Mailbox </span></a></li>
+                <li> <a href="#user"><span><i class="far fa-envelope"></i> </span> <span>Mailbox</span></a></li>
                 <li> <a href="#user"><span><i class="fas fa-file-alt"></i> </span> <span>Reports</span></a></li>
                 
             </ul>
@@ -41,7 +41,7 @@
         </aside>
 
         <!-- Main -->
-        <main class="container__main">
+        <main class="col-md-10 container__main">
             <div class="header__one">
                 <span style="font-size:25px">Senior marketer(Sample)</span>
                 <span style="margin-right:100px;">Remote job</span>
@@ -55,27 +55,32 @@
                     </select>
             </span>
                  <span style="float:right;"><i class="fas fa-plus"></i></span>  
-                <!-- <span id="img-shape"><img src="Img/obama2_0.jpg" alt="Avatar"></span> -->
-                
 
             </div>
-          
-            <nav class="navigation">
-                <ul>
-                    <li style="float: left"><a href="#pipeline">PIPELINE</a></li>
-                    <li style="float: left;"><a href="#filter">FILTER</a></li>
-                    <li style="float: left;"><a href="#activity">ACTIVITY</a></li>
-                    <li style="float: left;"><a href="#notes">NOTES</a></li>
-                    <li style="float:left"><a href="#file">FILE</a></li>
-                    <li style="float:left"><a href="#promote">PROMOTE</a></li>
-                    <li style="float:left"><a href="#reports">REPORTS</a></li>
-                    <li style="float:right"> <a href="#edit"><span><i class="fas fa-edit"></i></span> <span>EDIT</span></a></li>
-                    <li style="float:right"> <a href="#share"><span><i class="fas fa-share-alt-square"></i></span> <span>SHARE</span></a></li>
-                    <li style="float:right"> <a href="#view"><span><i class="far fa-eye"></i></span> <span>VIEW</span></a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class=" container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                           <li class="nav-item" ><a href="#pipeline">PIPELINE</a></li>
+                    <li class="nav-item"  ><a href="#filter">FILTER</a></li>
+                    <li class="nav-item" ><a href="#activity">ACTIVITY</a></li>
+                    <li class="nav-item"  ><a href="#notes">NOTES</a></li>
+                    <li class="nav-item"  ><a href="#file">FILE</a></li>
+                    <li class="nav-item" ><a href="#promote">PROMOTE</a></li>
+                    <li class="nav-item" ><a href="#reports">REPORTS</a></li>
+                    <li class="nav-item" > <a href="#edit"><span><i class="fas fa-edit"></i></span> <span>EDIT</span></a></li>
+                    <li class="nav-item" > <a href="#share"><span><i class="fas fa-share-alt-square"></i></span> <span>SHARE</span></a></li>
+                    <li class="nav-item"> <a href="#view"><span><i class="far fa-eye"></i></span> <span>VIEW</span></a></li>  
+                        </ul>
+                    </div>
+                </div>
             </nav>
-            <div class="sub-container">
-                <div class="box">
+            <div class="container d-flex">
+              <div class="row">
+                <div class="col-md-2 col-sm-6 p-2 box">
                     <div style="text-align:center">
                         <h4>Applied(0)</h4>
                     </div>
@@ -100,7 +105,7 @@
                     </div>
                 </div>
 
-                <div class="box">
+                <div class="col-md-2 col-sm-6 p-2 box ">
                     <div style="text-align:center">
                         <h4>Phone interview(0)</h4>
                     </div>
@@ -126,7 +131,7 @@
                    </div>
                 </div>
 
-                <div class="box">
+                <div class="col-md-2 col-sm-6 p-2 box ">
                     <div style="text-align:center">
                         <h4>on-site interview(1)</h4>
                     </div>
@@ -170,7 +175,8 @@
                     </div>
                 </div>
 
-                <div class="box">
+
+                <div class="col-md-2 col-sm-6 p-2 box ">
                     <div style="text-align:center">
                         <h4>Evaluation(3)</h4>
                     </div>
@@ -233,7 +239,7 @@
                   </div>
                 </div>
 
-                <div class="box">
+                <div class="col-md-2 col-sm-6 p-2 box ">
                     <div style="text-align:center">
                         <h4> offer(1)</h4>
                     </div>
@@ -257,6 +263,14 @@
                    </div>
                    </div>
                 </div>
+              </div>
+
+               
+
+             
+
+
+                
 
             </div>
         </main>

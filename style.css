@@ -5,47 +5,11 @@ body{
     width: 30%;
     margin: 20px auto;
 }
-/* search bar */
-.search {
-    height: 40px;
-    background: rgb(207, 207, 207);
-    border-radius: 30px;
-    border: 1px solid #fff;
-}
-.search input {
-    width: 370px;
-    padding: 10px;
-    float: left;
-    color: rgb(0, 0, 0);
-    border: 0;
-    border-radius: 20px;
-    background: transparent;
-    border-radius: 30px;
-}
-.search input:focus {
-    outline: 0;
-    background: transparent;
-}
-.search button {
-    position: relative;
-    float: right;
-    border: 0;
-    cursor: pointer;
-    height: 40px;
-    width: 120px;
-    color: #fff;
-    background: #6048F6;
-    border-left: 1px solid #fff;
-    border-radius:  30px;
-    padding-left: 10px;
-}
-.search button:hover {
-    background: #fff;
-    color: #444;
-}
-/* Search bar end */
 
-
+.btn{
+    background:#6048F6;
+    color:aliceblue;
+}
 #dropdown{
     padding: 10px;
     background-color:#6048F6;
@@ -91,20 +55,14 @@ body{
 }
 
 .icon-bottom{
-    margin-top: 350px;
+    margin-top: 200px;
 }
-.container__sidebar {
-    width: 15%;
-    margin-top:85px;
-}
+
 
 .container__main{
     width:80%;
 }
-.sub-container{
- display: flex;
-    overflow: auto;
-}
+
 .icon{
     border-top: 1px solid gray;
     text-align: center;
@@ -115,7 +73,7 @@ body{
     margin-left:3px;
 }
 .box{
-    width:20%;
+  
     background-color:#F2FBFF;
 
     height: 70vh;
@@ -136,15 +94,6 @@ img {
   .img-name{
       padding: 20px;
       font-family: Arial, Helvetica, sans-serif;
-  }
-  #Name{
-     margin-left: 20px;
-      font-size: 20px;
-  }
-  .active{
-      border-radius: 50%;
-      width: 10px;
-      background:rgb(61, 202, 61);
   }
     
 /* skillBar */
