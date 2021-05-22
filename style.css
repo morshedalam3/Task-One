@@ -3,7 +3,7 @@ body{
 }
 .main {
     width: 30%;
-    margin: 50px auto;
+    margin: 20px auto;
 }
 /* search bar */
 .search {
@@ -64,6 +64,7 @@ body{
   
   .navigation{
       margin-left: 60px;
+      border-bottom: 1px solid #c6cbce;
   }
 
   ul {
@@ -90,7 +91,7 @@ body{
 }
 
 .icon-bottom{
-    margin-top: 200px;
+    margin-top: 350px;
 }
 .container__sidebar {
     width: 15%;
@@ -126,7 +127,7 @@ body{
     margin-top:10px;
 }
 img {
-    width: 10%;
+    width: 15%;
     border-radius: 50%;
   }
   span{
@@ -139,6 +140,11 @@ img {
   #Name{
      margin-left: 20px;
       font-size: 20px;
+  }
+  .active{
+      border-radius: 50%;
+      width: 10px;
+      background:rgb(61, 202, 61);
   }
     
 /* skillBar */
