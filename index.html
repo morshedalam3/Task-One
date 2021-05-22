@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,8 +14,10 @@
     <div class="container py-5">
         <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search.." aria-label="Search">
-            <button class="btn" type="submit">Search</button>
-          </form>
+            <button class="btn" type="submit">Search</button> <span style="margin-left: 1000px;"><i
+                    style="color:#6048F6" class="fas fa-bell" size="3x"></i></span>
+
+        </form>
     </div>
 
     <div class="d-flex">
@@ -23,251 +25,295 @@
         <!-- Sidebar -->
         <aside class=" col-md-2 col-sm-6 p-2 container__sidebar">
             <ul>
-                <li> <a href="#user"><span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">Ojas singh</span></a></li>
+                <li> <a href="#user"><span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">Ojas
+                            singh</span></a></li>
                 <li> <a href="#user"><span><i class="fas fa-border-all"></i> </span> <span>Dashboard</span></a></li>
                 <li> <a href="#user"><span><i class="fas fa-user"></i> </span> <span>Candidate</span></a></li>
                 <li> <a href="#user"><span><i class="fas fa-business-time"></i> </span> <span>Job </span></a></li>
                 <li> <a href="#user"><span><i class="far fa-envelope"></i> </span> <span>Mailbox</span></a></li>
                 <li> <a href="#user"><span><i class="fas fa-file-alt"></i> </span> <span>Reports</span></a></li>
-                
+
             </ul>
             <div class="icon-bottom">
                 <ul>
                     <li> <a href="#user"><span><i class="fas fa-user"></i> </span> <span>Account</span></a></li>
                     <li> <a href="#user"><span><i class="fas fa-sign-out-alt"></i> </span> <span>Logout</span></a></li>
                 </ul>
-             
+
             </div>
         </aside>
 
         <!-- Main -->
         <main class="col-md-10 container__main">
-            <div class="header__one">
-                <span style="font-size:25px">Senior marketer(Sample)</span>
-                <span style="margin-right:100px;">Remote job</span>
-                 <span><span style="background-color: #6048F6;">qualified 7</span> <span>disqualified 1</span></span>
-                 <span style="float:right;">
-                    <select id="dropdown">
-                      <option value="volvo">Following</option>
-                      <option value="saab">Option one</option>
-                      <option value="opel">Option two</option>
-                      <option value="audi">Option three</option>
-                    </select>
-            </span>
-                 <span style="float:right;"><i class="fas fa-plus"></i></span>  
+            <div class="">
 
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html">Senior marketer(Sample)</a>
+                        <span style="margin-right:100px;">Remote job</span>
+                        <span><span style="background-color: #6048F6;">qualified 7</span> <span>disqualified
+                                1</span></span>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <span style="float:right;"><i class="fas fa-plus"></i></span>
+                                </li>
+
+                                <li class="nav-item">
+                                    <select id="dropdown">
+                                        <option value="volvo">Following</option>
+                                        <option value="saab">Option one</option>
+                                        <option value="opel">Option two</option>
+                                        <option value="audi">Option three</option>
+                                    </select>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
+
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
                 <div class=" container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                           <li class="nav-item" ><a href="#pipeline">PIPELINE</a></li>
-                    <li class="nav-item"  ><a href="#filter">FILTER</a></li>
-                    <li class="nav-item" ><a href="#activity">ACTIVITY</a></li>
-                    <li class="nav-item"  ><a href="#notes">NOTES</a></li>
-                    <li class="nav-item"  ><a href="#file">FILE</a></li>
-                    <li class="nav-item" ><a href="#promote">PROMOTE</a></li>
-                    <li class="nav-item" ><a href="#reports">REPORTS</a></li>
-                    <li class="nav-item" > <a href="#edit"><span><i class="fas fa-edit"></i></span> <span>EDIT</span></a></li>
-                    <li class="nav-item" > <a href="#share"><span><i class="fas fa-share-alt-square"></i></span> <span>SHARE</span></a></li>
-                    <li class="nav-item"> <a href="#view"><span><i class="far fa-eye"></i></span> <span>VIEW</span></a></li>  
+                            <li class="nav-item"><a href="#pipeline">PIPELINE</a></li>
+                            <li class="nav-item"><a href="#filter">FILTER</a></li>
+                            <li class="nav-item"><a href="#activity">ACTIVITY</a></li>
+                            <li class="nav-item"><a href="#notes">NOTES</a></li>
+                            <li class="nav-item"><a href="#file">FILE</a></li>
+                            <li class="nav-item"><a href="#promote">PROMOTE</a></li>
+                            <li class="nav-item"><a href="#reports">REPORTS</a></li>
+                            <li style="margin-left:350px" class="nav-item"> <a href="#edit"><span><i
+                                            class="fas fa-edit"></i></span> <span>EDIT</span></a></li>
+                            <li class="nav-item"> <a href="#share"><span><i class="fas fa-share-alt-square"></i></span>
+                                    <span>SHARE</span></a></li>
+                            <li class="nav-item"> <a href="#view"><span><i class="far fa-eye"></i></span>
+                                    <span>VIEW</span></a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
+
             <div class="container d-flex">
-              <div class="row">
-                <div class="col-md-2 col-sm-6 p-2 box">
-                    <div style="text-align:center">
-                        <h4>Applied(0)</h4>
-                    </div>
-                    <div class="card">
-                        <i style="color:#6048F6" class="fas fa-bookmark"></i>
-                        <div class="img-name">
-                            <span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">pipeline filter</span >
+                <div class="row">
+                    <div class="col-md-2 col-sm-6 p-2 box">
+                        <div style="text-align:center">
+                            <h4>Applied(0)</h4>
                         </div>
-                        <div class="contentContainer">
-                            <div class="skillBar">
-                                <span style="float:left">candidate profile</span> <span style="float: right">100% </span>
-                                <div class="skillBarContainer">
-                                    <div class="skillBarValue value-100"></div>
+                        <div class="card">
+                            <i style="color:#6048F6" class="fas fa-bookmark"></i>
+                            <div class="img-name">
+                                <span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">pipeline
+                                    filter</span>
+                            </div>
+                            <div class="contentContainer">
+                                <div class="skillBar">
+                                    <span style="float:left">candidate profile</span> <span style="float: right">100%
+                                    </span>
+                                    <div class="skillBarContainer">
+                                        <div class="skillBarValue value-100"></div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="icon">
-                            <span><i class="far fa-clock"></i> 21d</span>
-                            <span><i class="fas fa-comment-alt"> 4</i></span>
-                            <span><i class="fas fa-tasks"></i> 4</span>
-                       </div>
-                    </div>
-                </div>
-
-                <div class="col-md-2 col-sm-6 p-2 box ">
-                    <div style="text-align:center">
-                        <h4>Phone interview(0)</h4>
-                    </div>
-                   <div class="card">
-                    <i style="color:#6048F6" class="fas fa-bookmark"></i>
-                    <div class="img-name">
-                        <span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">pipeline filter</span>
-                    </div>
-                    <div class="contentContainer">
-                        <div class="skillBar">
-                            <span style="float:left">candidate profile</span> <span style="float: right">40% </span>
-                            <div class="skillBarContainer">
-                                <div class="skillBarValue value-40"></div>
+                            <div class="icon">
+                                <span><i class="far fa-clock"></i> 21d</span>
+                                <span><i class="fas fa-comment-alt"> 4</i></span>
+                                <span><i class="fas fa-tasks"></i> 4</span>
                             </div>
                         </div>
                     </div>
-                   
-                    <div class="icon">
-                         <span><i class="far fa-clock"></i> 21d</span>
-                         <span><i class="fas fa-comment-alt"> 4</i></span>
-                         <span><i class="fas fa-tasks"></i> 4</span>
-                    </div>
-                   </div>
-                </div>
 
-                <div class="col-md-2 col-sm-6 p-2 box ">
-                    <div style="text-align:center">
-                        <h4>on-site interview(1)</h4>
-                    </div>
-                    <div class="card">
-                        <i style="color:#DADEE2" class="fas fa-bookmark"></i>
-                        <div class="img-name">
-                            <span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">pipeline filter</span>
+                    <div class="col-md-2 col-sm-6 p-2 box ">
+                        <div style="text-align:center">
+                            <h4>Phone interview(0)</h4>
                         </div>
-                        <div class="contentContainer">
-                            <div class="skillBar">
-                                <span style="float:left">candidate profile</span> <span style="float: right">40% </span>
-                                <div class="skillBarContainer">
-                                    <div class="skillBarValue value-40"></div>
+                        <div class="card">
+                            <i style="color:#6048F6" class="fas fa-bookmark"></i>
+                            <div class="img-name">
+                                <span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">pipeline
+                                    filter</span>
+                            </div>
+                            <div class="contentContainer">
+                                <div class="skillBar">
+                                    <span style="float:left">candidate profile</span> <span style="float: right">40%
+                                    </span>
+                                    <div class="skillBarContainer">
+                                        <div class="skillBarValue value-40"></div>
+                                    </div>
                                 </div>
                             </div>
+
+                            <div class="icon">
+                                <span><i class="far fa-clock"></i> 21d</span>
+                                <span><i class="fas fa-comment-alt"> 4</i></span>
+                                <span><i class="fas fa-tasks"></i> 4</span>
+                            </div>
                         </div>
-                        <div class="icon">
-                            <span><i class="far fa-clock"></i> 21d</span>
-                            <span><i class="fas fa-comment-alt"> 4</i></span>
-                            <span><i class="fas fa-tasks"></i> 4</span>
-                       </div>
                     </div>
-                    <div class="card">
-                        <i style="color:#DADEE2" class="fas fa-bookmark"></i>
-                        <div class="img-name">
-                            <span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">pipeline filter</span>
+
+                    <div class="col-md-2 col-sm-6 p-2 box ">
+                        <div style="text-align:center">
+                            <h4>on-site interview(1)</h4>
                         </div>
-                        <div class="contentContainer">
-                            <div class="skillBar">
-                                <span style="float:left">candidate profile</span> <span style="float: right">40% </span>
-                                <div class="skillBarContainer">
-                                    <div class="skillBarValue value-40"></div>
+                        <div class="card">
+                            <i style="color:#DADEE2" class="fas fa-bookmark"></i>
+                            <div class="img-name">
+                                <span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">pipeline
+                                    filter</span>
+                            </div>
+                            <div class="contentContainer">
+                                <div class="skillBar">
+                                    <span style="float:left">candidate profile</span> <span style="float: right">40%
+                                    </span>
+                                    <div class="skillBarContainer">
+                                        <div class="skillBarValue value-40"></div>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="icon">
+                                <span><i class="far fa-clock"></i> 21d</span>
+                                <span><i class="fas fa-comment-alt"> 4</i></span>
+                                <span><i class="fas fa-tasks"></i> 4</span>
+                            </div>
                         </div>
-                        <div class="icon">
-                            <span><i class="far fa-clock"></i> 21d</span>
-                            <span><i class="fas fa-comment-alt"> 4</i></span>
-                            <span><i class="fas fa-tasks"></i> 4</span>
-                       </div>
+                        <div class="card">
+                            <i style="color:#DADEE2" class="fas fa-bookmark"></i>
+                            <div class="img-name">
+                                <span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">pipeline
+                                    filter</span>
+                            </div>
+                            <div class="contentContainer">
+                                <div class="skillBar">
+                                    <span style="float:left">candidate profile</span> <span style="float: right">40%
+                                    </span>
+                                    <div class="skillBarContainer">
+                                        <div class="skillBarValue value-40"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="icon">
+                                <span><i class="far fa-clock"></i> 21d</span>
+                                <span><i class="fas fa-comment-alt"> 4</i></span>
+                                <span><i class="fas fa-tasks"></i> 4</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
 
-                <div class="col-md-2 col-sm-6 p-2 box ">
-                    <div style="text-align:center">
-                        <h4>Evaluation(3)</h4>
-                    </div>
-                  <div class="card">
-                    <i style="color:#DADEE2" class="fas fa-bookmark"></i>
-                    <div  class="img-name">
-                        <span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">pipeline filter</span>
-                    </div>
-                    <div class="contentContainer">
-                        <div class="skillBar">
-                            <span style="float:left">candidate profile</span> <span style="float: right">40% </span>
-                            <div class="skillBarContainer">
-                                <div class="skillBarValue value-40"></div>
+                    <div class="col-md-2 col-sm-6 p-2 box ">
+                        <div style="text-align:center">
+                            <h4>Evaluation(3)</h4>
+                        </div>
+                        <div class="card">
+                            <i style="color:#DADEE2" class="fas fa-bookmark"></i>
+                            <div class="img-name">
+                                <span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">pipeline
+                                    filter</span>
+                            </div>
+                            <div class="contentContainer">
+                                <div class="skillBar">
+                                    <span style="float:left">candidate profile</span> <span style="float: right">40%
+                                    </span>
+                                    <div class="skillBarContainer">
+                                        <div class="skillBarValue value-40"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="icon">
+                                <span><i class="far fa-clock"></i> 21d</span>
+                                <span><i class="fas fa-comment-alt"> 4</i></span>
+                                <span><i class="fas fa-tasks"></i> 4</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <i style="color:#DADEE2" class="fas fa-bookmark"></i>
+                            <div class="img-name">
+                                <span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">pipeline
+                                    filter</span>
+                            </div>
+                            <div class="contentContainer">
+                                <div class="skillBar">
+                                    <span style="float:left">candidate profile</span> <span style="float: right">40%
+                                    </span>
+                                    <div class="skillBarContainer">
+                                        <div class="skillBarValue value-40"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="icon">
+                                <span><i class="far fa-clock"></i> 21d</span>
+                                <span><i class="fas fa-comment-alt"> 4</i></span>
+                                <span><i class="fas fa-tasks"></i> 4</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <i style="color:#DADEE2" class="fas fa-bookmark"></i>
+                            <div class="img-name">
+                                <span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">pipeline
+                                    filter</span>
+                            </div>
+                            <div class="contentContainer">
+                                <div class="skillBar">
+                                    <span style="float:left">candidate profile</span> <span style="float: right">40%
+                                    </span>
+                                    <div class="skillBarContainer">
+                                        <div class="skillBarValue value-40"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="icon">
+                                <span><i class="far fa-clock"></i> 21d</span>
+                                <span><i class="fas fa-comment-alt"> 4</i></span>
+                                <span><i class="fas fa-tasks"></i> 4</span>
                             </div>
                         </div>
                     </div>
-                    <div class="icon">
-                        <span><i class="far fa-clock"></i> 21d</span>
-                        <span><i class="fas fa-comment-alt"> 4</i></span>
-                        <span><i class="fas fa-tasks"></i> 4</span>
-                   </div>
-                  </div>
-                  <div class="card">
-                    <i style="color:#DADEE2" class="fas fa-bookmark"></i>
-                    <div class="img-name">
-                        <span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">pipeline filter</span>
-                    </div>
-                    <div class="contentContainer">
-                        <div class="skillBar">
-                            <span style="float:left">candidate profile</span> <span style="float: right">40% </span>
-                            <div class="skillBarContainer">
-                                <div class="skillBarValue value-40"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="icon">
-                        <span><i class="far fa-clock"></i> 21d</span>
-                        <span><i class="fas fa-comment-alt"> 4</i></span>
-                        <span><i class="fas fa-tasks"></i> 4</span>
-                   </div>
-                  </div>
-                  <div class="card">
-                    <i style="color:#DADEE2" class="fas fa-bookmark"></i>
-                    <div class="img-name">
-                        <span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">pipeline filter</span>
-                    </div>
-                    <div class="contentContainer">
-                        <div class="skillBar">
-                            <span style="float:left">candidate profile</span> <span style="float: right">40% </span>
-                            <div class="skillBarContainer">
-                                <div class="skillBarValue value-40"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="icon">
-                        <span><i class="far fa-clock"></i> 21d</span>
-                        <span><i class="fas fa-comment-alt"> 4</i></span>
-                        <span><i class="fas fa-tasks"></i> 4</span>
-                   </div>
-                  </div>
-                </div>
 
-                <div class="col-md-2 col-sm-6 p-2 box ">
-                    <div style="text-align:center">
-                        <h4> offer(1)</h4>
-                    </div>
-                   <div class="card">
-                    <i style="color:#DADEE2" class="fas fa-bookmark"></i>
-                    <div class="img-name">
-                        <span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">pipeline filter</span>
-                    </div>
-                    <div class="contentContainer">
-                        <div class="skillBar">
-                            <span style="float:left">candidate profile</span> <span style="float: right">40% </span>
-                            <div class="skillBarContainer">
-                                <div class="skillBarValue value-40"></div>
+                    <div class="col-md-2 col-sm-6 p-2 box ">
+                        <div style="text-align:center">
+                            <h4> offer(1)</h4>
+                        </div>
+                        <div class="card">
+                            <i style="color:#DADEE2" class="fas fa-bookmark"></i>
+                            <div class="img-name">
+                                <span><img src="Img/obama2_0.jpg" alt="Avatar"></span> <span id="Name">pipeline
+                                    filter</span>
+                            </div>
+                            <div class="contentContainer">
+                                <div class="skillBar">
+                                    <span style="float:left">candidate profile</span> <span style="float: right">40%
+                                    </span>
+                                    <div class="skillBarContainer">
+                                        <div class="skillBarValue value-40"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="icon">
+                                <span><i class="far fa-clock"></i> 21d</span>
+                                <span><i class="fas fa-comment-alt"> 4</i></span>
+                                <span><i class="fas fa-tasks"></i> 4</span>
                             </div>
                         </div>
                     </div>
-                    <div class="icon">
-                        <span><i class="far fa-clock"></i> 21d</span>
-                        <span><i class="fas fa-comment-alt"> 4</i></span>
-                        <span><i class="fas fa-tasks"></i> 4</span>
-                   </div>
-                   </div>
                 </div>
-              </div>
             </div>
         </main>
     </div>
     <script src="https://kit.fontawesome.com/2ea268ee7b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
