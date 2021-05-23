@@ -81,11 +81,11 @@ body{
 .icon span{
     margin-left:3px;
 }
-.box{ 
+.box{
+  
     background-color:#F2FBFF;
     padding: 2px;
     margin: 10px;
-    margin-bottom: 20px;
 }
 .card{
     background-color:white;
