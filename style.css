@@ -5,7 +5,12 @@ body{
     width: 30%;
     margin: 20px auto;
 }
-
+.icon-bell{
+    margin-right: 80px;
+    margin-top: 48px;
+    color: #6048F6;
+    font-size: 35px;
+}
 .btn{
     background:#6048F6;
     padding: 10px;
@@ -55,8 +60,11 @@ body{
     display: flex;
 }
 
+.container__sidebar{
+    margin-top:50px;
+}
 .icon-bottom{
-    margin-top: 350px;
+    margin-top: 250px;
 }
 
 
@@ -73,13 +81,11 @@ body{
 .icon span{
     margin-left:3px;
 }
-.box{
-  
+.box{ 
     background-color:#F2FBFF;
-
-    height: 70vh;
     padding: 2px;
     margin: 10px;
+    margin-bottom: 20px;
 }
 .card{
     background-color:white;
@@ -109,10 +115,9 @@ img {
     justify-content: space-between;
     -ms-flex-align: center;
     align-items: center;
-    /* box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15); */
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     overflow: hidden;
-    margin-bottom: 30px;
 }
 
 .inner-form .input-field {
@@ -191,11 +196,7 @@ img {
         min-width: 100px;
     }
 }
-@media screen and (max-width: 1000px) {
-    .inner-form .input-field.second-wrap {
-        min-width: 100px;
-    }
-}
+
 .inner-form .input-field.second-wrap .btn-search {
     height: 100%;
     width: 100%;
@@ -219,17 +220,6 @@ img {
     outline: 0;
     box-shadow: none;
 }
-
-
-  /* #Name{
-     margin-left: 20px;
-      font-size: 20px;
-  } */
-  /* .active{
-      border-radius: 50%;
-      width: 10px;
-      background:rgb(61, 202, 61);
-  } */
     
 /* skillBar */
 .skillBar {
